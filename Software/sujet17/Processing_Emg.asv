@@ -1,0 +1,49 @@
+function [rms_source1 rms_source2]=Processing_Emg(data,taille)
+taille = (taille * 424)/5300
+
+electrodo1 = remmean( data(:,1));
+electrodo2 = remmean( data(:,2));
+electrodo3 = remmean( data(:,3));
+electrodo4 = remmean( data(:,4));
+electrodo5 = remmean( data(:,5));
+
+x1=func_denoise_wavelet(electrodo1);
+x2=func_denoise_wavelet(electrodo2);
+x3=func_denoise_wavelet(electrodo3);
+x4=func_denoise_wavelet(electrodo4);
+x5=func_denoise_wavelet(electrodo5);
+
+rms_x1 = rms(x1, taille, 0, 0)';
+rms_x2 = rms(x2, taille, 0, 0)';
+rms_x3 = rms(x3, taille, 0, 0)';
+rms_x4 = rms(x4, taille, 0, 0)';
+rms_x5 = rms(x5, taille, 0, 0)';
+
+mixedsig = [
+             x1
+             x2
+             x3
+             x4
+             x5  
+                ];
+
+%     [A, W] = fastica(mixedsig);
+
+%Descomponemos las señales en 5 fuentes independientes
+source=W*mixedsig;
+%calculamos la transpuesta para que cada columna sea una fuente
+source=source';
+
+source1 = source(:,1);
+source2 = source(:,2);
+source3 = source(:,3);
+source4 = source(:,4);
+source5 = source(:,5);
+
+rms_source1 = rms(source1, taille, 0, 0)'; % 424
+rms_source2 = rms(source2, taille, 0, 0)';
+rms_source3 = rms(source3, taille, 0, 0)';
+rms_source4 = rms(source4, taille, 0, 0)';
+rms_source5 = rms(source5, taille, 0, 0)';
+
+

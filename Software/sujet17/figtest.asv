@@ -1,0 +1,11 @@
+for i=1
+   eval(['load Block1trial',num2str(i),';']) 
+   eval(['data =  Block1trial',num2str(i),';'])
+   
+   figure(i)
+   for m=1
+       subplot(5,m)
+       plot(data(:,m+4))
+       
+   end
+end
