@@ -11,20 +11,31 @@ if you want do some experience you need the following hadware:
 
 
 
-## [Assembly »]
+## Connections »
 
-In this section we explain, how you can assembly all the hadware ....
+You have to place the electrodes in the followins positions:
 
-## [Electronic »]( https://github.com/joelortizsosa/Poppy_Right_Arm_Creature/blob/master/doc/electronic.md)
+![img8](img/img8.jpg)
 
-In this section we explain, how you can power up all the motors ....
+![img1](img/img1.jpg)
 
-## [Software »]( https://github.com/joelortizsosa/Poppy_Right_Arm_Creature/blob/master/doc/software.md)
+Then, it is necessary fixe the wrist into the machine:
 
-In this section we explain, how you can install the creature necessary to control Poppy_Right_Arm, and we show some applications  ....
+![img9](img/img9.jpg)
 
-## [Common Bug »]( https://github.com/joelortizsosa/Poppy_Right_Arm_Creature/blob/master/doc/common_Bug.md)
 
-If you have any trouble when you execute your code, you can try watch this section ...
+Now you can start the software, first it's necessary launch the software of acquisition:
+
+*Poppy_Force_Driver.m*
+
+Then, you need to launch the software of learning:
+
+*model_par_cibles.m*
+
+Finally, you can start a control only with your EMG signals, like in this [video](https://vimeo.com/134840606)
+
+
+
+
 
 
