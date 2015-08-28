@@ -1,9 +1,16 @@
-# Poppy Right Arm documentation
+# EMG Signal Processing
+
+This software works with a very special Hadware, the development was made in the research Center INCIA-Bordeaux,
+if you want do some experience you need the following hadware:
+
+![img5](img/img5.jpg)
+
+![img2](img/img2.jpg)
+
+![img6](img/img6.jpg)
 
 
-<p align="center">
-<img src="https://github.com/joelortizsosa/Poppy_Right_Arm_Creature/blob/master/doc/img/logo.png" title="Poppy_logo.">
-</p>
+
 
 In this documentation you will find everything you need to assemble your own arm from scratch:
 
