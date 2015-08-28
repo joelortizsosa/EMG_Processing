@@ -5,6 +5,3 @@
 ## [STL View »](doc/stl/PoppyRightArm.STL)
 
 
-
-
-![credits](doc/img/credits.jpg)
