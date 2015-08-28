@@ -34,7 +34,7 @@ Then, you need to launch the software of learning:
 
 Finally, you can start a control only with your EMG signals, like in this [video](https://vimeo.com/134840606)
 
-
+*poppy_ExpEMGDriven.m*
 
 
 
