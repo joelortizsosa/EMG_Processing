@@ -11,10 +11,7 @@ if you want do some experience you need the following hadware:
 
 
 
-
-In this documentation you will find everything you need to assemble your own arm from scratch:
-
-## [Assembly »]( https://github.com/joelortizsosa/Poppy_Right_Arm_Creature/blob/master/doc/assembly.md)
+## [Assembly »]
 
 In this section we explain, how you can assembly all the hadware ....
 
