@@ -52,3 +52,4 @@ The database of each subjects was created in matlab and they are arranged as fol
 | Force Z  | Force X | Force Y | Elec 1 | Elec 2 | Elec 3 | Elec 4 | Elec 5 | DataTrimmed | Pos X | Pos Y |
 | --------:|:-------:|:-------:|:------:|:------:|:------:|:------:|:------:|:-----------:|:-----:|:-----:|
 
+*Note: La force est at Newtons and the Position in pixels*
