@@ -28,14 +28,16 @@ Now you can start the software, first it's necessary launch the software of acqu
 
 *Poppy_Force_Driver.m*
 
-Then, you need to launch the software of learning:
+Once you've collected the EMG data, you need to launch the software of learning:
 
 *model_par_cibles.m*
 
-Finally, you can start a control only with your EMG signals, like in this [video](https://vimeo.com/134840606), using this code:
+Finally, when you've obtained the mathematical model you can start to control only with your EMG signals, like in this [video](https://vimeo.com/134840606), using the code of the following file:
 
 *poppy_ExpEMGDriven.m*
 
+
+*Note: All the files are in the folder Software*
 
 
 
