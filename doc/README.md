@@ -48,6 +48,6 @@ IF you dont have the hadware necessary to do your own experiences, but you want 
 You can find this database in the folder [Data sets] (https://github.com/joelortizsosa/EMG_Processing/tree/master/Data%20sets)
 
 
-| Force Z  | Force X | Force Y | Elec 1 | Elec 2 | Elec 3 | Elec 4 | Elec 5 | DataTrimmed | Pos X | Pos Y |
+| ForceZ  | Force X | Force Y | Elec 1 | Elec 2 | Elec 3 | Elec 4 | Elec 5 | DataTrimmed | Pos X | Pos Y |
 | --------:|:-------:|:-------:|:------:|:------:|:------:|:------:|:------:|:-----------:|:-----:|:-----:|
 
