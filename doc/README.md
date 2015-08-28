@@ -32,7 +32,7 @@ Then, you need to launch the software of learning:
 
 *model_par_cibles.m*
 
-Finally, you can start a control only with your EMG signals, like in this [video](https://vimeo.com/134840606)
+Finally, you can start a control only with your EMG signals, like in this [video](https://vimeo.com/134840606), using this code:
 
 *poppy_ExpEMGDriven.m*
 
