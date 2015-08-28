@@ -45,9 +45,10 @@ Finally, when you've obtained the mathematical model you can start to control on
 
 IF you dont have the hadware necessary to do your own experiences, but you want to try different methods for processing the electromyographic signals. We keep a database of the different subjects to which we tested.
 
-You can find this database in the folder [Data sets] (https://github.com/joelortizsosa/EMG_Processing/tree/master/Data%20sets)
+You can find this database in the folder [Data sets] (https://github.com/joelortizsosa/EMG_Processing/tree/master/Data%20sets).
 
+The database of each subjects was created in matlab and they are arranged as follows
 
-| ForceZ  | Force X | Force Y | Elec 1 | Elec 2 | Elec 3 | Elec 4 | Elec 5 | DataTrimmed | Pos X | Pos Y |
+| Force Z  | Force X | Force Y | Elec 1 | Elec 2 | Elec 3 | Elec 4 | Elec 5 | DataTrimmed | Pos X | Pos Y |
 | --------:|:-------:|:-------:|:------:|:------:|:------:|:------:|:------:|:-----------:|:-----:|:-----:|
 
