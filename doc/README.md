@@ -37,7 +37,7 @@ Finally, when you've obtained the mathematical model you can start to control on
 *poppy_ExpEMGDriven.m*
 
 
-*Note: All the files are in the folder Software*
+*Note: All the files are in the folder [Software](https://github.com/joelortizsosa/EMG_Processing/tree/master/Software)*
 
 -------------
 
