@@ -1,4 +1,4 @@
-# Poppy Right Arm (WORK IN PROGRESS!)
+# EMG processing Software
 
 Watch PoppyRightArm in action! :
 
